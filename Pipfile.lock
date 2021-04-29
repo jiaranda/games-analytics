@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "9b7cefb9ff4edbde5c90c3e4e95285c4cb4a0e2c47446e17dde7d31744f62316"
+            "sha256": "c2bf0cff911e86c0dd95f6cbe24503371269228a1a4511eeda02a4918d043daf"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -16,6 +16,14 @@
         ]
     },
     "default": {
+        "ariadne": {
+            "hashes": [
+                "sha256:56bc3609a0512920f06e9312f8ea6db3c8e4a7cd77f31fbed388f5dba6d589c0",
+                "sha256:e00abd7eb5869b59a638f1e3a7743445bf387236048cf1b0eb9d7c506dcd37c5"
+            ],
+            "index": "pypi",
+            "version": "==0.13.0"
+        },
         "asgiref": {
             "hashes": [
                 "sha256:92906c611ce6c967347bbfea733f13d6313901d54dcca88195eaeb52b2a8e8ee",
@@ -39,6 +47,14 @@
             ],
             "index": "pypi",
             "version": "==3.12.4"
+        },
+        "graphql-core": {
+            "hashes": [
+                "sha256:2ae62ed27eb5c629fdfd06f89bec36a427bef97d37aef41e8f195c5352f22bea",
+                "sha256:972eff18416ad90815c95914b754486270f13fbe1a24e010c7eedbaa903b9386"
+            ],
+            "markers": "python_version >= '3.6' and python_version < '4'",
+            "version": "==3.1.4"
         },
         "psycopg2-binary": {
             "hashes": [
@@ -95,6 +111,22 @@
             ],
             "markers": "python_version >= '3.5'",
             "version": "==0.4.1"
+        },
+        "starlette": {
+            "hashes": [
+                "sha256:3c8e48e52736b3161e34c9f0e8153b4f32ec5d8995a3ee1d59410d92f75162ed",
+                "sha256:7d49f4a27f8742262ef1470608c59ddbc66baf37c148e938c7038e6bc7a998aa"
+            ],
+            "markers": "python_version >= '3.6'",
+            "version": "==0.14.2"
+        },
+        "typing-extensions": {
+            "hashes": [
+                "sha256:7cb407020f00f7bfc3cb3e7881628838e69d8f3fcab2f64742a5e76b2f841918",
+                "sha256:99d4073b617d30288f569d3f13d2bd7548c3a7e4c8de87db09a9d29bb3a4a60c",
+                "sha256:dafc7639cde7f1b6e1acc0f457842a83e722ccca8eef5270af2d74792619a89f"
+            ],
+            "version": "==3.7.4.3"
         }
     },
     "develop": {}
