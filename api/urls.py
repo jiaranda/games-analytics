@@ -15,11 +15,12 @@ Including another URLconf
 """
 from ariadne.contrib.django.views import GraphQLView
 from django.contrib import admin
-from django.urls import path
+from django.urls import include,path
 from .schema import schema
 
 
 urlpatterns = [
+    path('gameAnalytics/', include('gameAnalytics.urls')),
     path('admin/', admin.site.urls),
     path('graphql/', GraphQLView.as_view(schema=schema), name='graphql')
 ]
