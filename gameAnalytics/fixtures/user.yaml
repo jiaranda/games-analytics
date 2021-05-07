@@ -4,3 +4,10 @@
     username: elJavs
     email: jiaranda@uc.cl
     password: 123123
+
+- model: gameAnalytics.user
+  pk: 2
+  fields:
+    username: xcros
+    email: xcros@xcros.cl
+    password: 123123
