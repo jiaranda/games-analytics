@@ -1,0 +1,6 @@
+- model: gameAnalytics.user
+  pk: 1
+  fields:
+    username: elJavs
+    email: jiaranda@uc.cl
+    password: 123123
