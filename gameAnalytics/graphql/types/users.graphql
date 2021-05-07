@@ -1,15 +1,16 @@
 type User {
   id: Int!
   username: String!
-  password: String!
   email: String!
 }
 
 type Query {
   getUsers: [User]!
+  getUser(id: Int!): User!
 }
 
 type Mutation {
   createUser(username: String!, password: String!, email: String!): User!
-  deleteUser(id: Int!): User!
+  deleteUser(id: Int!): Boolean!
+  updateUser(id: Int!, username: String, password: String): User!
 }
