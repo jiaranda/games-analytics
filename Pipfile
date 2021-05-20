@@ -8,6 +8,7 @@ Django = "==3.1.6"
 psycopg2-binary = "*"
 djangorestframework = "*"
 ariadne = "*"
+pyyaml = "*"
 
 [dev-packages]
 
