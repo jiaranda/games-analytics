@@ -9,6 +9,7 @@ psycopg2-binary = "*"
 djangorestframework = "*"
 ariadne = "*"
 pyyaml = "*"
+pyjwt = "*"
 
 [dev-packages]
 
