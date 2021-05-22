@@ -8,3 +8,8 @@ class User(models.Model):
         max_length=200, unique=True, null=False, blank=False)
     password = models.CharField(max_length=200)
     email = models.EmailField(unique=True, null=False, blank=False)
+
+
+class Player(models.Model):
+    name = models.CharField(
+        max_length=200, unique=True, null=False, blank=False)
